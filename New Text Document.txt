@@ -1,6 +1,0 @@
-import json
-filepath = os.path.join('data', "train-v2.0.json")
-with open(filepath) as f:
-    data = json.load(f)
-    
-print(data)
